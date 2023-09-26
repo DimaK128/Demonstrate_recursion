@@ -1,2 +1,17 @@
-package PACKAGE_NAME;public class Part_1 {
+public class Part_1 {
+    public static void main(String[] args) {
+        int n = 9;
+        printNumberBackward(n);
+    }
+
+    public static void printNumberBackward(int n) {
+        if (n == 0) {
+            return;                                         //  When n becomes 0, it just stops our recursion
+        }
+
+        System.out.print(n + " ");                                // Prints the current value of n
+
+
+        printNumberBackward(n - 1);
+    }
 }
