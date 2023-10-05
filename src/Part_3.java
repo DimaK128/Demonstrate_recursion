@@ -7,6 +7,4 @@ public class Part_3 {
         recursiveMethod();
     }
 }
-// This code does not work because it is not correct.
-// recursiveMethod just calls itself without any return condition.
-// It is also called infinite recursion
+
